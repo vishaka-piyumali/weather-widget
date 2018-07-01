@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.intro-text {
+  margin-bottom: 20px;
+}

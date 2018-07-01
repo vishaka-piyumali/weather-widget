@@ -1,0 +1,23 @@
+.weather-widget {
+	margin: 20px auto;
+	width: 700px;
+	background: whitesmoke;
+	border: 1px solid lightgrey;
+	border-top-color: #446DA9;
+	border-top-width: 4px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 35px;
+}
+@media handheld, only screen and (max-width: 767px) {
+	.weather-widget {
+		margin: 0 auto;
+		width: initial;
+		padding: 15px;
+		border: none;
+		border-top: 4px solid #446DA9;
+		border-bottom: 1px solid lightgrey;
+		border-bottom-left-radius: none;
+		border-bottom-right-radius: none;
+	}
+}
