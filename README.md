@@ -5,12 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Please visit my deployed bundle in below location.
 Do accept the prompt to allow access your location as this is required for the API to work
 
-```
+Live demo url [https://www.itsvish.com/demos/weatherwidget/](https://www.itsvish.com/demos/weatherwidget/)
 
-https://itsvish.com/demos/weatherwidget/
-
-
-```
 
 ## Dependencies
 
