@@ -1,0 +1,42 @@
+{
+	"coord": {
+		"lon": 151.12,
+		"lat": -33.78
+	},
+	"weather": [
+		{
+			"id": 520,
+			"main": "Rain",
+			"description": "light intensity shower rain",
+			"icon": "09n"
+		}
+	],
+	"base": "stations",
+	"main": {
+		"temp": 286.67,
+		"pressure": 1029,
+		"humidity": 87,
+		"temp_min": 286.15,
+		"temp_max": 287.15
+	},
+	"visibility": 8000,
+	"wind": {
+		"speed": 4.6,
+		"deg": 110
+	},
+	"clouds": {
+		"all": 75
+	},
+	"dt": 1530514800,
+	"sys": {
+		"type": 1,
+		"id": 8233,
+		"message": 0.0077,
+		"country": "AU",
+		"sunrise": 1530478866,
+		"sunset": 1530514687
+	},
+	"id": 7281782,
+	"name": "North Ryde",
+	"cod": 200
+}
