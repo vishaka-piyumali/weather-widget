@@ -50,9 +50,7 @@ class App extends Component {
 	}
 
 	handleOnChange(event) {
-		let target = event.target,
-				value = target.value,
-				name = target.name;
+		let {name, value} = event.target;
 
 		this.setState({
 			[name]: value
