@@ -7,6 +7,30 @@ import constants from '../../../utils/constants';
 import './index.css';
 import loading from './images/loading.gif';
 
+/*
+* openweather icons to my weather icons
+* */
+const iconMap = {
+		'01d': 'day', //clear sky day
+		'01n': 'night', //clear sky night
+		'02d': 'cloudy-day-3', //few clouds day
+		'02n': 'cloudy-night-3', // few clouds night
+		'03d': 'cloudy', //scattered clouds
+		'03n': 'cloudy',
+		'04d': 'cloudy-1', //broken clouds
+		'04n': 'cloudy-4',
+		'09d': 'rainy-7', // shower rain
+		'09n': 'rainy-7',
+		'10d': 'rainy-1', // rain
+		'10n': 'rainy-5',
+		'11d': 'thunder', //thunderstorm
+		'11n': 'thunder',
+		'13d': 'snowy-3', // snow
+		'13n': 'snowy-6',
+		'50d': 'cloudy', // mist
+		'50n': 'cloudy'
+}
+
 class WeatherPanel extends Component {
 
 	constructor (props) {
@@ -75,7 +99,7 @@ class WeatherPanel extends Component {
 	}
 
 	showImage () {
-		return <img src={require('./images/' + this.state.data.weather[0].icon + '.png')} alt={this.state.data.weather[0].description} />;
+		return <img src={require('./images/svgs/animated/' + iconMap[this.state.data.weather[0].icon] + '.svg')} alt={this.state.data.weather[0].description} />;
 	}
 
 	showPanel () {
